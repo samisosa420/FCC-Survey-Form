@@ -1,0 +1,40 @@
+#body{
+  background-color:gray;
+}
+#containerDiv {
+  background-color:white;
+  border-radius:5px;
+  font-size:17px;
+  margin-bottom:10px;
+}
+
+
+#title{
+  color:white;
+}
+#description{
+  font-size:20px;
+}
+
+#dropdown{
+  padding:7px;
+}
+
+#number, #email, #name{
+  padding:7px;
+  margin-top:-7px;
+}
+
+.row {
+  padding:5px;
+}
+.submitBtn{
+  text-align:center;
+  padding:20px;
+
+}
+#submit{
+  border-radius:5px;
+  background-color:white;
+  color:Red;
+}

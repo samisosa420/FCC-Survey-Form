@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <script  src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"/>
+
+  </head>
+
+  <body id="body" class="container-fluid">
+
+        <h1 class="text-center" id="title">Survey Form</h1>
+
+
+    <div class="col-md-2"></div>
+    <div id="containerDiv" class="col-md-8">
+
+    <br>
+
+    <p id="description" class="text-center"> Please fill in this information for further stuff.
+    </p>
+    <br>
+
+
+
+    <form id="survey-form">
+
+       <div class="row">
+
+         <div class="col-xs-1"> </div>
+           <label class="col-xs-5 text-right" id="name-label"> Name: </label>
+
+<input class="col-xs-4 text-left" id="name" placeholder="Enter your name" required> </input>
+      </div>
+      <br>
+      <div class="row">
+     <div class="col-xs-1"> </div>
+
+
+    <label class="col-xs-5 text-right" id="email-label"> Email: </label>
+        <input class="col-xs-4 text-left"id="email" type="email" placeholder="Enter your Email" required> </input>
+    </div>
+  <br>
+
+  <div class="row">
+  <div class="col-xs-1"> </div>
+
+  <label class="col-xs-5 text-right" id="number-label"> Number: </label>
+  <input class="col-xs-4 text-left"id="number" placeholder="Enter a number" type="number" min="1" max="100">
+  </input>
+
+    </div>
+<br>
+
+
+  <div class="row">
+      <div class="col-xs-1"> </div>
+
+    <label class="col-xs-5 text-right"> What is your favourite cryptocurrency? </label>
+  <select class="col-xs-2" id="dropdown">
+  <option value="bitcoin"> Bitcoin </option>
+    <option value="ethereum"> Ethereum</option>
+    <option value="bcash"> Bitcoin Cash </option>
+    <option value="ripple"> Ripple </option>
+                     </select>
+  <br>
+  </div>
+
+  <div class="row">
+    <div class="col-xs-1"> </div>
+  <label class="col-xs-5 text-right"> Would you like to buy any of these coins?
+  </label>
+
+    <div class="col-xs-6 text-left">
+  <input type="radio" name="choice" value="yes"> Yes </input><br>
+
+<input type="radio" name="choice" value="no"> No </input><br>
+
+<input type="radio" name="choice" value="maybe"> Maybe </input><br>
+</div>
+</div>
+<br>
+
+<div class="row">
+  <div class="col-xs-1"></div>
+<label class="col-xs-5 text-right"> Choose which exchange do you usually use to trade crypto?</label>
+
+<div class="col-xs-6 text-left">
+<input type="checkbox" value="exchange"> Coinbase</input>
+<br>
+
+<input type="checkbox" value="exchange">  Canadianbitcoins</input>
+<br>
+
+<input type="checkbox" value="exchange"> Binance</input>
+<br>
+
+<input type="checkbox" value="exchange"> Cryptopia</input>
+<br>
+
+<input type="checkbox" value="exchange"> Coinsquare</input>
+</div>
+</div>
+
+<div class="row">
+<div class="col-xs-6 text-right">
+  <label>Any Comments or Suggestions?</label>
+  </div>
+
+<textarea type="textarea" placeholder="Please write any comments or suggestions you have"> </textarea>
+</div>
+<br>
+
+<div class="submitBtn">
+<input type="submit" id="submit"></input>
+    </form>
+</div>
+</div>
+</div>
+    <div class="col-md-2"></div>
+
+  </body>
+</html>
